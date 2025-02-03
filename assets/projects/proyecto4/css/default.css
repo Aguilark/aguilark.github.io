@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	position:relative;
+	text-align: center; 
+	background-color:#B5D7F2;
+}
+
+header {
+	background-color:white;
+	margin-top:50px;
+	padding:1%;
+	margin-right:10%;
+	margin-left:10%;
+	border: black 2px solid;
+	border-radius:20px;
+}
+
+
+#texto1 {
+	font-family: Arial;
+	font-size: 40px;
+	color: #018FB7;
+}
+
+.input {
+	margin-top:40px;
+}
+
+.input p{
+	font-size: 30px;
+	color:#3D4045;
+	font-weight: bold; 
+	font-style: italic; 
+}
+
+#numero1,
+#numero2 {
+	margin-top:20px;
+	width: 150px; 
+	padding: 10px; 
+	margin-right: 20px; 
+	font-size: 25px;
+}
+
+
+.operadores {
+	margin-top:80px;
+}
+
+.resetear {
+	margin-top:40px;
+}
+
+#resetBtn {
+    width: 150px; 
+    height: 40px; 
+    font-size: 16px; 
+}
+
+.resultado {
+	margin-top:80px;
+	background-color:#4D82BC;
+	margin-left:25%;
+	margin-right:25%;
+}
+
+#numeros {
+	font-size: 60px;
+	color: #CBCBCB;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+	background-color: #DCDCDC;
+	border: #018FB7 3px solid;
+	padding:5px;
+	border-radius: 3px;
+	display: inline;
+	margin-right: 30px;
+	font-size: 25px;
+}
+
+li:hover {
+	cursor:pointer;
+	transform: scale(1.1);  
+}
+
+h2{
+	font-size: 36px;
+	color: #842BF1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+	text-align:center;
+	width: 100%;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+       	<meta name="keywords" content="web img, imágenes">
+		<meta name="description" content="Juego del ahorcado">
+		<meta name="author" content="Kevin Aguilar Gonzalez">
+		<link rel="icon" type="favicon/PNG" href="img/favicon.png" sizes="64x64" />
+          	<title>El Ahorcado</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+	
+	<script src="js/jquery-3.7.1.min.js"></script>
+
+	<script src="js/funtion.js"></script> 
+</head>
+
+	<body>
+
+		<header> 
+			
+				<h1>Juego del Ahorcado</h1>
+				<h4>Elige la palabra que será descubierta en el siguiente paso y el nivel de dificultad.</h4>
+			
+		</header>
+		
+		<div class="izq">
+			<table>
+				<tbody>
+				  <tr>
+					<td><button>A</button></td>
+					<td><button>B</button></td>
+					<td><button>C</button></td>
+					<td><button>D</button></td>
+				  </tr>
+				  <tr>
+					<td><button>E</button></td>
+					<td><button>F</button></td>
+					<td><button>G</button></td>
+					<td><button>H</button></td>
+				  </tr>
+				  <tr>
+					<td><button>I</button></td>
+					<td><button>J</button></td>
+					<td><button>K</button></td>
+					<td><button>L</button></td>
+				  </tr>
+				  <tr>
+					<td><button>M</button></td>
+					<td><button>N</button></td>
+					<td><button>Ñ</button></td>
+					<td><button>O</button></td>
+				  </tr>
+				  <tr>
+					<td><button>P</button></td>
+					<td><button>Q</button></td>
+					<td><button>R</button></td>
+					<td><button>S</button></td>
+				  </tr>
+				  <tr>
+					<td><button>T</button></td>
+					<td><button>U</button></td>
+					<td><button>V</button></td>
+					<td><button>W</button></td>
+				  </tr>
+				  <tr>
+					<td><button>X</button></td>
+					<td><button>Y</button></td>
+					<td><button>Z</button></td>
+					<td><button class="finalizar">FINALIZAR</button></td>
+				  </tr>
+				</tbody>
+			</table>
+		
+			<div class="palabra">
+				<p>Palabra escogida:</p>
+				<div class="letras">
+				</div>
+			</div>
+		
+			<table class="nivel">
+				<thead>
+					<tr>
+						<th colspan="4">Elige el nivel de dificultad</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><button class="nivel-btn" data-imagen="opcion1.jpg">Nivel 1</button></td>
+						<td><button class="nivel-btn" data-imagen="opcion2.jpg">Nivel 2</button></td>
+						<td><button class="nivel-btn" data-imagen="opcion3.jpg">Nivel 3</button></td>
+						<td><button class="nivel-btn" data-imagen="opcion4.jpg">Nivel 4</button></td>
+					</tr>
+				</tbody>
+			</table>
+
+
+		</div>
+		
+		<div class="der">
+			<div class="dibujo">
+				
+			</div>
+		</div>
+
+			<button id="start">A JUGAR!!!</button>
+
+		
+		<footer>
+			<p class="kcopy">© 2024 Kevin Aguilar González. | All right reserved</p>
+		</footer>
+
+	</body>
+</html>
+

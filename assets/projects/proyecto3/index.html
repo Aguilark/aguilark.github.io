@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+       	<meta name="keywords" content="web img, imágenes">
+		<meta name="description" content="JUEGO HOVER">
+		<meta name="author" content="Kevin Aguilar Gonzalez">
+		<link rel="icon" type="favicon/PNG" href="img/favicon.png" sizes="64x64" />
+          	<title>GURÚ PERSONALIDAD</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+	
+	<script src="js/jquery-3.7.1.min.js"></script>
+
+	<script src="js/funtion.js"></script> 
+</head>
+
+	<body>
+
+		<header> 
+			<div class="logo">		
+				<img src="img/guru.png" alt="guru"/>
+			</div>
+			<div class="titulo">
+				<h1>EL GURÚ DE LA PERSONALIDAD</h1><br>
+				<p id="inicio">DIME COMO DISFRUTAS Y TE DIRÉ QUIÉN ERES</p>
+				<p id="description">Elige 1 opción de cada grupo y descubre lo que el GURÚ dice de tu personalidad</p>
+			</div>
+		</header>
+		<h2>PLAN DE ENTRETENIMIENTO FAVORITO (elige una opción)</h2>
+		<div class="container1">
+			<div id="izq"><!-- Container1 -->
+				<button class="btn-container1" data-group="1">Practicar deportes al aire libre.</button>
+				<button class="btn-container1" data-group="2">Disfrutar de un día de spa y relajación.</button>
+				<button class="btn-container1" data-group="3">Visitar eventos culturales y exposiciones.</button>
+				<!-- Agregar IDs a los demás botones en container1 según sea necesario -->
+			</div>
+		
+
+			<div id="der">
+				<button class="btn-container1" data-group="4">Pasar tiempo en casa haciendo manualidades.</button>
+				<button class="btn-container1" data-group="5">Descubrir nuevos restaurantes en tu localidad.</button>
+				<button class="btn-container1" data-group="6">Ir a conciertos o festivales de música y bailar.</button>
+				<!-- Agregar IDs a los demás botones en container1 según sea necesario -->
+			</div>
+		</div>
+		<h2>PLAN DE ESCAPADA FAVORITO (elige una opción)</h2>
+		<!-- Container2 -->
+		<div class="container2">
+			<div id="izq2">
+				<button class="btn-container2" data-group="7">Recorrer las calles históricas de una antigua ciudad europea.</button>
+				<button class="btn-container2" data-group="8">Explorar la naturaleza de una zona salvaje.</button>
+				<button class="btn-container2" data-group="9">Descubrir la arquitectura moderna y la vida urbana en una gran ciudad.</button>
+				<!-- Agregar IDs a los demás botones en container2 según sea necesario -->
+			</div>
+
+			<div id="der2">
+				<button class="btn-container2" data-group="10">Relajarse en una tranquila isla en medio del océano.</button>
+				<button class="btn-container2" data-group="11">Finde de esquí o snow en una estación de montaña.</button>
+				<button class="btn-container2" data-group="12">Navegar en un crucero por fiordos y paisajes invernales.</button>
+				<!-- Agregar IDs a los demás botones en container2 según sea necesario -->
+			</div>
+		</div>
+		
+		<button id="resetBtn">Reset</button>
+		
+		<div class="respuesta">
+			<div id="gurufinal">
+				<img src="img/guru2.png" alt="guru de la respuesta"/>
+			</div>
+			
+			<div id="resultado">
+				<p>Descubre lo que el Gurú dice de tu personalidad</p>
+			</div>
+		</div>
+		
+		<footer>
+			<p class="kcopy">© 2024 Kevin Aguilar González. | All right reserved</p>
+		</footer>
+
+	</body>
+</html>
+

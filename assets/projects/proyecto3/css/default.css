@@ -1,0 +1,186 @@
+/* CSS Document */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7D1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+	width: 20%;
+}
+
+.logo img {
+    width: 60%; 
+    height: 60%; 
+	margin-left:20px;
+}
+
+.titulo {
+    flex-grow: 1;
+	text-align:center;
+}
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+	color:#BC2964;
+	background-color:white;
+	border-radius:30px;
+	width:60%;
+	margin-left: 90px; 
+	padding:2px;
+}
+
+#inicio {
+	color:#96F2AA;
+	font-size:30px;
+	margin-right:190px;
+}
+
+#description {
+    font-size: 20px;
+	margin-right:190px;
+	color:white;
+	font-style: italic;
+}
+
+h2 {
+    text-align: center;
+	color: #BC2964;
+    margin-bottom: 10px;
+}
+
+.container1, .container2 {
+    display: flex;
+    justify-content: space-between;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#izq, #der, #izq2, #der2 {
+    width: 48%; /* Reducimos un poco el ancho para dejar espacio entre los botones */
+}
+
+#izq button,
+#izq2 button,
+#der button,
+#der2 button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #A5EEA0;
+    color: black;
+    width: 90%;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+
+#resetBtn {
+    display: block;
+    margin: 20px auto; 
+	margin-top:4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #BC2964;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 150px; 
+}
+
+.respuesta {
+	display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+	margin-top:-30px;
+}
+
+
+#gurufinal img{
+	width:50%;
+	height:40%;
+	margin-left:160px;
+}
+
+#resultado {
+	width:80%;
+	height:125px;
+	margin-right:80px;
+	border: 1px solid black;
+	border-radius:20px;
+	padding:10px;
+}
+
+#resultado p{
+	text-align:center;
+	margin-top:10px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.kcopy {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+        flex-direction: column; /* Cambiamos la dirección de flexbox a columna en pantallas más pequeñas */
+        align-items: center; /* Centramos los elementos verticalmente en pantallas más pequeñas */
+    }
+
+    .titulo {
+        margin-left: 0; /* Restauramos el margen izquierdo en pantallas más pequeñas */
+        text-align: center; /* Centramos el texto en pantallas más pequeñas */
+    }
+}

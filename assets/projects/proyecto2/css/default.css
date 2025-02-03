@@ -1,0 +1,82 @@
+body {
+    background-image: url("../img/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: orange;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+    font-family: "Honk-Regular-VariableFont_MORF,SHLN";
+}
+
+.tabla {
+    position: relative;
+    background-color: green;
+    margin: auto;
+    margin-top: -50px;
+    border-collapse: collapse;
+}
+
+.celda {
+    position: relative;
+    background-color: #C7E7AF;
+    overflow: hidden;
+    padding-bottom: 220px;
+    padding-left: 250px;
+    cursor: pointer;
+    background-image: url(../img/fondoceldas.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.celda:hover {
+    background-image: url(../img/bomba.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.celda.descubierta {
+    background-image: url(../img/birds1.png); /* Ajusta la imagen base */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kcopy{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Honk-Regular-VariableFont_MORF,SHLN";
+    src: url("../fonts/Honk-Regular-VariableFont_MORF,SHLN.ttf") format('truetype');
+}

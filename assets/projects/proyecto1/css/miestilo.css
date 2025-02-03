@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#A7D7A6;
+	position:relative;
+}
+
+table{
+	width:80%;
+	height:auto;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:4%;
+}
+
+header {
+	text-align:center;
+	margin-top:15px;
+	background-color:#90B3EF;
+	margin-left:20%;
+	margin-right:20%;
+	border:2px solid white;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+#titulo {
+	font-size:40px;
+	color:#E5E5C4;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+	margin-top:-2px;
+	font-weight: bold;
+}
+
+#descripcion {
+	text-align:center;
+	margin-top:-50px;
+	font-size:25px;
+	color:white;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	font-weight: normal
+}
+
+td, tr{
+	border-collapse:collapse;
+	border-radius:8px;
+	border:2px solid #969696;
+}
+
+tr{
+	width:25%;
+	height:150px;
+}
+
+td{
+	background-image:url(../img/trevol.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-bottom:125px;
+	padding-left:5px;
+
+}
+
+td:hover{
+	border-radius:25px;
+	border:2px solid white;
+	background-color:#B4CEE8;
+}
+
+.error:active{
+	background-color:#fff;
+	background-image:url(../img/gameover.png);
+}
+
+.acierto:active{
+	background-color:#D0F2B4;
+	background-image:url(../img/premio.png);
+}
+
+
+#backhome {
+    color: orange;
+    text-decoration: none;
+}
+
+#backhome:hover {
+    text-decoration: underline;
+}
+
+#contadores {
+	border: 4px solid #4B7EB6;
+	border-radius:20px;
+	background-color:white;
+    text-align: center;
+	margin-left:35%;
+	margin-right:35%;
+    margin-top: -40px;
+    font-size: 25px; 
+    color: #333; 
+}
+
+footer {
+
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
